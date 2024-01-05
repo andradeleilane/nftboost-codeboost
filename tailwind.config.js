@@ -33,7 +33,8 @@ module.exports = {
         'card-collector': '37rem',
         'logo-size-mobile': '10rem',
         'nav-header': '48.3rem',
-        'left-content-footer': '20.2rem'
+        'left-content-footer': '20.2rem',
+        'content-description-dektop': '41.1rem'
       },
       height: {
         'area-image-nft': '14.7rem'
@@ -52,6 +53,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'hero-pattern': 'url("../assets/bg-hero.svg")'
+      }
     },
     screens: {
       '@tablet': '640px',

@@ -4,13 +4,12 @@ import { ContainerGrid } from '@/components/container'
 import { TitleSection } from '@/components/title-section'
 
 import ImageNft01 from '@/assets/img-neft/01.jpg'
+import { SectionHero } from '@/components/section-hero'
 
 export default function Home() {
   return (
     <>
-      <section className='w-full h-screen flex'>
-
-      </section>
+      <SectionHero></SectionHero>
     
     </>
     /*<ContainerGrid>
