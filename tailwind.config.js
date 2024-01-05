@@ -29,7 +29,11 @@ module.exports = {
       },
       maxWidth: {
         grid: '77.5rem',
-        'card-nft': '17.4rem'
+        'card-nft': '17.4rem',
+        'card-collector': '37rem',
+        'logo-size-mobile': '10rem',
+        'nav-header': '48.3rem',
+        'left-content-footer': '20.2rem'
       },
       height: {
         'area-image-nft': '14.7rem'
@@ -48,6 +52,16 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+    screens: {
+      '@tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      '@laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      '@desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
     },
   },
   plugins: [require("tailwindcss-animate")],
