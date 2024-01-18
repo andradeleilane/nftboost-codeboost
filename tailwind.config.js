@@ -26,6 +26,7 @@ module.exports = {
         'green-primary': '#4BCE97',
         'gray-border-card': '#131317',
         'gray-area-favorite': '#05030A',
+        'gray-hover-btn-slide': '#07050F'
       },
       maxWidth: {
         grid: '77.5rem',
@@ -36,8 +37,13 @@ module.exports = {
         'left-content-footer': '20.2rem',
         'content-description-dektop': '41.1rem'
       },
+      width: {
+        'area-cards-mobile': '43.75rem',
+      },
       height: {
-        'area-image-nft': '14.7rem'
+        'area-image-nft': '14.7rem',
+        'area-cards-mobile': '15.3rem',
+        'area-cards-desktop': '26.6rem'
       },
       keyframes: {
         "accordion-down": {

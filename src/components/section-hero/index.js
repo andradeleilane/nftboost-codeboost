@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import { ContainerGrid } from "../container";
+import { CardsHero } from './cards';
 import IconBoost from '@/assets/icon-boost.svg'
 import ImageDoubleNFT from '@/assets/double-nft.png'
 import ImageSmallNFT from '@/assets/nft-small.png'
@@ -9,7 +10,7 @@ import AppleStore from '@/assets/apple.svg'
 
 export function SectionHero() {
     return (
-        <section className='pt-36 bg-hero-pattern bg-no-repeat'>
+        <section className='overflow-hidden pt-36 bg-hero-pattern bg-no-repeat'>
             <ContainerGrid className='flex flex-col items-center'>
                 <h3 className='flex items-center gap-2 text-sm @tablet:text-base @desktop:text-xl mb-3'>
                     <Image 
@@ -24,14 +25,14 @@ export function SectionHero() {
                         <Image 
                             src={ImageSmallNFT} 
                             alt="Image NFT"
-                            className='w-11 @desktop:w-auto'
+                            className='w-11'
                         />
                     </div>         
                     Digital de
                         <Image 
                             src={ImageDoubleNFT} 
                             alt="Image NFT"
-                            className='inline-block w-16 mx-2 @desktop:w-auto'
+                            className='inline-block w-16 mx-2'
                         />
                     Colecionáveis Únicos!
                 </h1>
@@ -48,6 +49,10 @@ export function SectionHero() {
                         alt="Apple Store"
                     />
                 </div>
+
+                <CardsHero></CardsHero>
+
+                <div className='w-full border-t border-white border-opacity-5 mt-10 @desktop:mt-36'></div>
             </ContainerGrid>
         </section>
     )
