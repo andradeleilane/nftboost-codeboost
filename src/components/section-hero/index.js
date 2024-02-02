@@ -21,7 +21,7 @@ export function SectionHero() {
                 </h3>
                 <h1 className='text-5xl/normal @desktop:text-7xl/normal text-center font-poppins mb-4'>
                     Explore um Universo
-                    <div className='inline-block align-middle mx-2 p-1 bg-white bg-opacity-5 border border-white border-opacity-5 rounded-full w-24 @desktop:w-32'>
+                    <div className='inline-block align-middle mx-2 p-1 bg-white bg-opacity-5 border border-white border-opacity-5 rounded-full w-24'>
                         <Image 
                             src={ImageSmallNFT} 
                             alt="Image NFT"

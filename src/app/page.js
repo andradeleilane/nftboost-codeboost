@@ -1,5 +1,3 @@
-import { CardCollectiors } from '@/components/card-collectiors'
-
 import { SectionHero } from '@/components/section-hero'
 import { SectionCarrousel } from '@/components/section-carrousel'
 
@@ -15,6 +13,9 @@ import ImageNft09 from '@/assets/img-neft/09.jpg'
 import ImageNft10 from '@/assets/img-neft/10.jpg'
 import ImageNft11 from '@/assets/img-neft/11.jpg'
 import ImageNft12 from '@/assets/img-neft/12.jpg'
+import { SectionCollectors } from '@/components/section-collectors'
+import { SectionBanner } from '@/components/section-banner'
+import { SectionQuestions } from '@/components/section-questions'
 
 const featureCollections = [
   {
@@ -140,12 +141,18 @@ export default function Home() {
       >
       </SectionCarrousel>
       <hr className='max-w-grid mx-auto border-t border-white border-opacity-5 @desktop:mt-36'/>
+      <SectionCollectors/>
+      <hr className='max-w-grid mx-auto border-t border-white border-opacity-5 @desktop:mt-36'/>
       <SectionCarrousel 
         subtitle='Em Tendência'
         title='Tendências'
         data={tendencies}
       >
       </SectionCarrousel>
+
+      <SectionBanner/>
+
+      <SectionQuestions/>
     </>
   )
 }
