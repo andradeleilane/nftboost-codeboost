@@ -9,7 +9,7 @@ Project of the Codeboost course! <br/>
 
 This project was developed with the following technologies:
 
-- NextJs
+- Next.js
 - Git
 - Layout: Figma
 - Deploy: Vercel
